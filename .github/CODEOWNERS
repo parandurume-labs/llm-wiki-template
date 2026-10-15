@@ -1,0 +1,7 @@
+# 승인본, 설계서, 원문, 규칙을 바꾸려면 아래 사람의 승인이 필요합니다.
+# Publish-LlmWikiGitHub.ps1이 @your-github-id를 승인자 아이디로 바꿉니다.
+/Published/     @your-github-id
+/Sources/raw/   @your-github-id
+/ontology.md    @your-github-id
+/AGENTS.md      @your-github-id
+/.github/       @your-github-id

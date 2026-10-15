@@ -1,0 +1,14 @@
+name: vault-check
+# paths 필터를 쓰지 않습니다. 건너뛴 검사는 통과로 처리되어 필수 검사가 무력해지기 때문입니다.
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: 온톨로지 기준 검사
+        shell: pwsh
+        run: ./scripts/Test-LlmWiki.ps1

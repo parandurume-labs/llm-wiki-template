@@ -1,0 +1,1 @@
+이 저장소의 작업 규칙은 루트의 AGENTS.md에 있습니다. 작업을 시작하기 전에 AGENTS.md와 ontology.md를 읽고 따르세요.
