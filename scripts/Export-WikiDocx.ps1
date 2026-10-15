@@ -13,13 +13,17 @@
   볼트 폴더. 기본값은 이 스크립트가 들어 있는 scripts 폴더의 상위 폴더입니다.
 
 .PARAMETER Force
-  .md보다 새 .docx가 있어도 다시 만듭니다.
+  짝이 되는 .md보다 새 .docx가 있어도 다시 만듭니다.
 
 .PARAMETER Prune
   짝이 되는 .md가 없어진 .docx를 지웁니다. 승인본에서 뺀 노트를 에이전트가 계속 인용하지 않게 합니다.
 
 .EXAMPLE
   .\scripts\Export-WikiDocx.ps1 -Prune
+.NOTES
+  GM-Social 라이선스 v2.0 · Copyright (c) 2026 이인희 (LEE Inhee), 파란두루미 (Parandurume Inc.)
+  출처: https://github.com/parandurume-labs/llm-wiki-template
+  복사하거나 고쳐 쓸 때는 이 표시와 라이선스 파일을 남겨 주세요.
 #>
 [CmdletBinding(SupportsShouldProcess)]
 param(

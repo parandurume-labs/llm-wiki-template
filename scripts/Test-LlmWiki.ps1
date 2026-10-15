@@ -20,6 +20,10 @@
 
 .EXAMPLE
   .\scripts\Test-LlmWiki.ps1 -Root D:\wiki\our-llm-wiki -ShowInfo
+.NOTES
+  GM-Social 라이선스 v2.0 · Copyright (c) 2026 이인희 (LEE Inhee), 파란두루미 (Parandurume Inc.)
+  출처: https://github.com/parandurume-labs/llm-wiki-template
+  복사하거나 고쳐 쓸 때는 이 표시와 라이선스 파일을 남겨 주세요.
 #>
 [CmdletBinding()]
 param(
