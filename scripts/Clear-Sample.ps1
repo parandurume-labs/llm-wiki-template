@@ -3,7 +3,7 @@
   예시 공장(한결공장)의 노트를 지우고 빈 위키로 시작합니다.
 
 .DESCRIPTION
-  New-LlmWiki.ps1 -Sample 이나 템플릿 저장소로 만든 볼트에서 예시 노트 아홉 개를 지우고,
+  New-LlmWiki.ps1 -Sample 이나 템플릿 저장소로 만든 볼트에서 예시 노트 열두 개를 지우고,
   questions.md를 빈 시험지로 되돌립니다. 설계서, 규칙, 템플릿, 스크립트는 그대로 둡니다.
   지울 파일 목록이 정해져 있으므로 직접 만든 노트는 건드리지 않습니다.
 
@@ -38,6 +38,9 @@ $sample = @(
     'Published\50-Orgs-People\ORG-다온기계.md',
     'Published\50-Orgs-People\ORG-푸른금속.md',
     'Published\50-Orgs-People\PSN-한결.md',
+    'Published\50-Orgs-People\PSN-서지우.md',
+    'Published\40-Worklog\MTG-20261020-다온기계.md',
+    'Published\40-Worklog\DEC-20261020-입고검사-공유.md',
     'hubs\제품.md'
 )
 
@@ -69,7 +72,7 @@ $blank = @'
 | 6 | 초안만 | | 승인된 기록이 없습니다 | |
 | 7 | 초안만 | | 승인된 기록이 없습니다 | |
 | 8 | 없음 | | 확인 필요 또는 승인된 기록이 없습니다 | |
-| 9 | 없음 | | 이 위키는 금액을 기록하지 않습니다 | |
+| 9 | 없음 | | 이 위키는 금액을 기록하지 않습니다. 단가는 영업 단가 안내에서 확인합니다. | |
 | 10 | 없음 | | 승인된 기록이 없습니다 | |
 '@
 if ((Test-Path -LiteralPath $questions) -and $PSCmdlet.ShouldProcess($questions, '빈 시험지로 되돌리기')) {

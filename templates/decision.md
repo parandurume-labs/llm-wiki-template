@@ -3,7 +3,7 @@ class: Decision
 id: DEC-YYYYMMDD-이름
 owner: "[[PSN-]]"
 status: 검토중
-source: "[[원문 파일 이름]]"
+source: "[[YYYY-MM-DD-원문 이름]]"  # 확장자 없이. 회의에서 나온 결정이면 "회의원문 보관함: 파일 이름"
 reviewed: false
 updated: YYYY-MM-DD
 ---
