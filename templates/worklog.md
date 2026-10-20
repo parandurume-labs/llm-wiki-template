@@ -3,7 +3,7 @@ class: Worklog
 id: LOG-YYYYMMDD-이름
 owner: "[[PSN-]]"
 intent_of: "[[ORD-]]"
-evidence: "[[원문 파일 이름]]"
+evidence: "[[YYYY-MM-DD-원문 이름]]"  # 확장자 없이
 reviewed: false
 updated: YYYY-MM-DD
 ---
